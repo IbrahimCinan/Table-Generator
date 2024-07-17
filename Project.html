@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+    <div class="main">
+        <h1>liste</h1>
+        <div class="üstbölge">
+            <fieldset>
+                <input type="text" id="inputName" placeholder="Enter name"> <hr>
+                <input type="text" id="inputSurname" placeholder="Enter surname"> <hr>
+                <input type="text" id="inputNumber" placeholder="Enter number"> 
+            
+            </fieldset>
+            <div class="üst-alt">
+
+         
+            <button class="deletestil" onclick="deletealltable()" >Delete all tables</button>
+            <button class="createstil" onclick="createTable()" >Create table</button>
+        </div>
+        </div>
+        <div class="altbölge">
+
+      
+             <div id="tables-container">
+      
+            </div>
+        </div>
+           
+    </div>
+ 
+    
+    <script src="script.js"></script>
+</body>
+</html>
